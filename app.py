@@ -5,7 +5,8 @@ app.py -- Plataforma Avanzada de Control de Gestión, Forecast 5+7 y Planificaci
 import sys
 import os
 from pathlib import Path
-
+from io import BytesIO
+from fpdf import FPDF
 import numpy as np
 import pandas as pd
 import streamlit as st
